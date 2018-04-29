@@ -1,4 +1,10 @@
 {
-    "name": "{managed-by-awsmobile-cli}",
-    "authenticationType": "AWS_IAM"
+    "name": "photo-client-2018-04-30-06-34-13",
+    "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+    "userPoolConfig": {
+        "userPoolId": "us-east-1_0HxqtASgA",
+        "awsRegion": "us-east-1",
+        "defaultAction": "ALLOW",
+        "appIdClientRegex": null
+    }
 }
